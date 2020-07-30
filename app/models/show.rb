@@ -7,7 +7,4 @@ class Show < ActiveRecord::Base
     self.actors
   end
   
-  # def build_network
-  
-  # end
 end
