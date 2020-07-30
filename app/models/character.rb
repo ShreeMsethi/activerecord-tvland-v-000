@@ -6,7 +6,7 @@ class Character < ActiveRecord::Base
     "self#{always says:}"
   end
   
-  def catchphrase=( t = "A Lanister always pays his debts")
+  def catchphrase=( t = " ")
     self.say_that_thing_you_say.t
   end
 
