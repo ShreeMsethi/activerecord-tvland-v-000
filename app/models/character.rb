@@ -2,7 +2,13 @@ class Character < ActiveRecord::Base
   belongs_to :actor
   belongs_to :show
   
+  # def say_that_thing_you_say
+  #   self
+  # end
+  
   def catchphrase=(say_that_thing_you_say)
-    self.say_that_thing_you_say
+    self.catchphrase
   end
+  
+  def 
 end
