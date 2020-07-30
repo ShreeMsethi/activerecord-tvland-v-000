@@ -7,7 +7,7 @@ class Character < ActiveRecord::Base
   # end
   
   def catchphrase=(say_that_thing_you_say)
-    self.catchphrase
+    
   end
 
 end
